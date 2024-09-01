@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Prime Video Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <video controls>
+                <source src="movie-trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="content">
+            <h2>Popular Movies and TV Shows</h2>
+            <div class="movie-grid">
+                <div class="movie">
+                    <img src="movie1.jpg" alt="Movie 1">
+                    <p>The Boys</p>
+                </div>
+                <div class="movie">
+                    <img src="movie2.jpg" alt="Movie 2">
+                    <p>Mirzapur</p>
+                </div>
+                <div class="movie">
+                    <img src="movie4.jpg" alt="Movie 3">
+                    <p>My Fault</p>
+                </div>
+                <!-- Add more movies as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prime Video Clone. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
